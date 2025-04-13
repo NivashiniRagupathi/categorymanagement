@@ -1,0 +1,62 @@
+/* Categories Page Styles */
+.categories-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f6f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 24px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .categories-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 12px;
+  }
+  
+  .categories-header h2 {
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .add-category-btn {
+    background-color: #1976d2;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-category-btn:hover {
+    background-color: #155fa0;
+  }
+  
+  /* Grid for Category Cards */
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Optional: Scrollbar styling for main content */
+  .main-content::-webkit-scrollbar {
+    width: 8px;
+  }
+  .main-content::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
