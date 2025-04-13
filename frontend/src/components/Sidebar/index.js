@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import LogoutModal from '../../components/LogoutModal';
+import LogoutModal from '../LogoutModal';
 import './index.css';
 
 function Sidebar() {
