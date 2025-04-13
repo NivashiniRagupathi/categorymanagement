@@ -12,8 +12,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <Navbar auth={auth} logout={logout} /> {/* Use Navbar Component */}
-      
+      <Navbar auth={auth} logout={logout} />
       <Routes>
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/categories" element={<Categories />} />
