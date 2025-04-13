@@ -22,7 +22,7 @@ const Login = () => {
     setError('');
 
     try {
-      const response = await axios.post('https://kmkk-category-management.onrender.com/api/auth/login', formData);
+      const response = await axios.post('https://categorymanagement.onrender.com/api/auth/login', formData);
       const { token } = response.data;
 
       // Store token in localStorage
